@@ -1,29 +1,53 @@
-# Bellabeat-caseStudy
-“My Data Analyst Project Portfolio”
+# 📊 Bellabeat Case Study (R Language)
 
-🪷 Bellabeat Case Study – Full Portfolio (Excel + R)
-Tools Used: Microsoft Excel, R (RStudio)
-Role: Data Analyst
-Objective: Analyze smart device data to uncover insights about users' sleep patterns and help Bellabeat enhance their product and marketing strategy.
+This project explores and analyzes FitBit user data to provide insights and recommendations for Bellabeat’s smart wellness products. It includes data cleaning, merging, EDA, visualizations, and actionable business suggestions using R.
 
-🔹 Step 1: Define the Problem
-Bellabeat, a wellness technology company, provides smart devices that collect users' daily activity and health data. The objective of this case study is to analyze this data to uncover behavioral patterns and provide strategic recommendations that could improve Bellabeat’s marketing and product features.
+## 📁 Data Sources
+- Daily Activity
+- Sleep Day
+- Hourly Steps
+- Heart Rate
+- Weight Log
 
-We focused on four key health aspects tracked by the Bellabeat app:
+## 🛠 Tools Used
+- R, Tidyverse, ggplot2, lubridate, skimr
+- Jupyter-style R Markdown for reporting
 
-🔍 Key Questions:
+## ✅ Key Analyses
+- Activity & Sleep patterns
+- User segmentation by activity level
+- Hourly trends in steps and heart rate
+- Comparison of Active vs. Non-Active users
 
-Sleep Patterns – Are users getting consistent sleep? How much sleep do they get on average?
+## 📈 Visualizations
+- Histograms of sleep & steps
+- Line plots for hourly behavior
+- Boxplots for sleep by user activity level
+- Violin plots for resting heart rate
+- Density plots for calorie burn
 
-Sleep Efficiency – How effectively are users sleeping compared to their time in bed?
+## 🧠 Key Insights
+- Average daily steps: ~7,639  
+- Average sleep: ~7.5 hours  
+- Sleep efficiency: ~85%  
+- 44% of users meet moderate activity levels
 
-Calories Burned – What is the average calorie expenditure, and how does it relate to activity/sleep?
+## 💡 Recommendations for Bellabeat
+1. Promote sleep tracking features (variable sleep efficiency)
+2. Encourage inactive users via gentle programs
+3. Alert users who are active but sleep poorly
+4. Suggest activity at optimal hours
+5. Add gamification to target 7,500+ steps/day
 
-Steps Taken – Are users meeting daily activity goals like 10,000 steps per day?
+## 🧾 Data Exported
+- `active_vs_inactive_daily_activity.csv`
+- `active_vs_inactive_sleep.csv`
+- `calories_by_activity_status.csv`
+- `heartrate_by_activity_status.csv`
+- `hourly_steps_by_activity_status.csv`
 
-🎯 Goals:
-Identify trends and patterns in sleep and activity behavior.
+## 📦 Final Outputs
+Visual and statistical comparison of user health data — ready to support Bellabeat’s marketing and product roadmap.
 
-Examine relationships between sleep, activity (steps), and calories burned.
 
 Provide data-driven recommendations to improve user engagement and wellness outcomes.
